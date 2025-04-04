@@ -4,14 +4,18 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #118fd8;
+    color: #b11f05;
+}
+img {
+        border-radius: 8%;
+        opacity: 0.5;
 }
 header, footer {
-    background-color: #333;
+    background-color: #0a011a;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 .nav-menu {
     list-style: none;
@@ -23,9 +27,12 @@ header, footer {
     margin: 0 15px;
 }
 .nav-menu a {
-    text-decoration: none;
-    color: white;
+    text-decoration: rgb(121, 235, 8);
+    color: rgb(243, 191, 191);
     font-weight: bold;
+}
+.nav-menu a:hover {
+    background-color: #823df0;
 }
 section {
     margin: 20px;
@@ -41,6 +48,6 @@ form {
 form input, form textarea, form button {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #c02307;
     border-radius: 5px;
 }
